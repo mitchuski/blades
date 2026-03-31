@@ -66,12 +66,10 @@ zk swordsman blade forge/
 ├── AGENT_BUILD_INSTRUCTIONS.md            # Step-by-step build guide
 ├── DUAL_TERRITORY_CEREMONY_SPEC_v1.md     # Implementation architecture for territories
 ├── Open_Integrity_Key_Ceremony_Brief.md   # Cryptographic root of trust ceremony
-├── act-xxvii-the-swordsmans-forge.md      # Grimoire: The Swordsman's Forge
-├── act-xxviii-the-ceremony-engine.md      # Grimoire: The Ceremony Engine
-├── act-xxix-the-dragon-wakes.md           # Grimoire: Post-quantum resilience
-├── blog-part1-forming-constellations.md   # Blog: Constellation theory
-├── blog-part2-the-forge-and-the-ceremony.md  # Blog: Forge mechanics
-├── blog-part3-the-dragon-wakes.md         # Blog: Quantum resistance
+├── LETTER_TO_UOR.md                       # Invitation letter to UOR Foundation
+├── CHRONICLE_UOR_CONVERGENCE_2026-03-31.md    # Detailed convergence analysis
+├── REVIEW_UOR_CONVERGENCE_GAPS_2026-03-31.md  # Gap analysis and open questions
+├── act-xxx-the-dihedral-mirror.md         # Grimoire: Dihedral group = dual-agent algebra
 ├── blades/                                # Blade specifications (64 total)
 ├── forge_circuits/                        # ZK circuit implementations
 ├── uor_mappings/                          # UOR coordinate systems
@@ -83,16 +81,19 @@ zk swordsman blade forge/
 
 The forge is documented through narrative grimoire acts that encode the mathematical architecture in story form:
 
-| Act | Title | Theme |
-|-----|-------|-------|
-| XXIV | The Holographic Bound | 96 edges / 64 vertices = P^1.5 |
-| XXV | The Dragon's Hide | Overlapping scales, multi-layer protection |
-| XXVI | The Divided Brain | Generator-Solver separation |
-| **XXVII** | **The Swordsman's Forge** | UOR × Tetrahedra × ZK convergence |
-| **XXVIII** | **The Ceremony Engine** | Bilateral witness, understanding-as-key |
-| **XXIX** | **The Dragon Wakes** | Post-quantum resilience, manifold proofs |
+| Act | Title | Theme | File |
+|-----|-------|-------|------|
+| XXIV | The Holographic Bound | 96 edges / 64 vertices = P^1.5 | agentprivacy-docs |
+| XXV | The Dragon's Hide | Overlapping scales, multi-layer protection | agentprivacy-docs |
+| XXVI | The Divided Brain | Generator-Solver separation | agentprivacy-docs |
+| **XXVII** | **The Swordsman's Forge** | UOR × Tetrahedra × ZK convergence | agentprivacy-docs |
+| **XXVIII** | **The Ceremony Engine** | Bilateral witness, understanding-as-key | agentprivacy-docs |
+| **XXIX** | **The Dragon Wakes** | Post-quantum resilience, manifold proofs | agentprivacy-docs |
+| **XXX** | **The Dihedral Mirror** | **Swordsman = neg, Mage = bnot, First Person = succ** | **this repo** |
 
-Acts XXVII–XXIX complete the Dragon's anatomy and establish the post-quantum thesis: **the proof that guards no secret cannot be opened — it can only be walked.**
+Acts XXVII–XXX complete the Dragon's anatomy:
+- **XXVII–XXIX:** Establish the post-quantum thesis — *"the proof that guards no secret cannot be opened — it can only be walked."*
+- **XXX:** Proves the algebraic foundation — *"Two mirrors make a door. neg(bnot(x)) = succ(x). The dual-agent architecture IS the dihedral group."*
 
 ## Key Properties
 
