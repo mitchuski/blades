@@ -3,11 +3,29 @@
 **Where Blades Are Ground on the Holographic Bound**
 
 **Author:** privacymage | mitchuski
-**Date:** March 27, 2026
-**Version:** 3.0
-**Status:** 🚧 STAGE 1 — V5 Holographic Integration, pre-peer review
+**Date:** March 31, 2026
+**Version:** 3.1
+**Status:** ✅ OPERATIONAL — Live implementation on [spellweb.ai](https://spellweb.ai)
 **Parent Document:** [Privacy is Value V5](privacy_is_value_v5.md)
 **Formal Companion:** [PVM V5 Formal Specification](pvm_v5_formal_specification.md)
+**Implementation Spec:** [DUAL_TERRITORY_CEREMONY_SPEC v1.0](DUAL_TERRITORY_CEREMONY_SPEC_v1.md)
+
+---
+
+## Live Implementation
+
+The Blade Forge is not theoretical — it runs on [spellweb.ai](https://spellweb.ai) (Swordsman Territory). The theory and code arrived the same day.
+
+| Territory | Platform | Components | Status |
+|-----------|----------|------------|--------|
+| **Swordsman** ⚔️ | spellweb.ai | Graph topology, blade forging, hexagram computation, constellation evocation | ✅ Operational |
+| **Mage** 🧙 | agentprivacy.ai | Story delivery, spell learning, training grounds, pretext orbs | ✅ Operational |
+
+The spellweb implements the 64-vertex lattice as an interactive knowledge graph with 119 nodes. Six dimensions map to blade properties: d1Hide, d2Commit, d3Prove, d4Connect, d5Reflect, d6Delegate. Visitors can:
+- Mark constellation paths through the graph
+- Evoke blades through orbital lap accumulation (tier thresholds: Light 5, Heavy 13, Dragon 62)
+- Forge proofs with inscribed constellations and hexagram encodings
+- Trace blade inventories with tier-coloured cut segments
 
 ---
 
@@ -535,8 +553,37 @@ zk-swordsman-blade-forge/
 | [Research Paper](dualprivacy_researchpaper_v4_0.md) | v4.0 | Formal mathematical framework |
 | [Whitepaper](swordsman_mage_whitepaper_v6_0.md) | v6.0 | Three-axis architecture, promise theory |
 | [Visual Architecture Guide](visual_architecture_guide_v2_0.md) | v2.0 | Diagrammatic representations |
-| [Glossary](GLOSSARY_MASTER_v3_0.md) | v3.0 | V5 term definitions (~140 entries) |
-| [Spellbook (Act XXIV)](spellbook_v7_1_0_canonical.md) | v7.1.0 | The Holographic Bound — narrative discovery |
+| [Glossary](GLOSSARY_MASTER_v3_0.md) | v3.2 | V5.1 term definitions (~150 entries) |
+| [DUAL_TERRITORY_CEREMONY_SPEC](DUAL_TERRITORY_CEREMONY_SPEC_v1.md) | v1.0 | Implementation architecture — territories, extensions, mana |
+| [Grimoire Act XXVII](act-xxvii-the-swordsmans-forge.md) | v1.0 | Narrative: The Swordsman's Forge |
+| [Grimoire Act XXVIII](act-xxviii-the-ceremony-engine.md) | v1.0 | Narrative: The Ceremony Engine |
+| [Grimoire Act XXIX](act-xxix-the-dragon-wakes.md) | v1.0 | Narrative: Post-quantum resilience |
+
+## Implementation References
+
+| Platform | Repository | Live URL |
+|----------|------------|----------|
+| **Swordsman Territory** | [spellweb](https://github.com/mitchuski/spellweb) | [spellweb.ai](https://spellweb.ai) |
+| **Mage Territory** | [agentprivacy-website](https://github.com/mitchuski/agentprivacy-website) | [agentprivacy.ai](https://agentprivacy.ai) |
+| **Documentation Hub** | [agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs) | — |
+
+## UOR & Identity System Integration
+
+The Blade Forge implements the three-layer identity architecture fundamental to 0xagentprivacy:
+
+| Layer | Identifier | Forge Expression | Persistence |
+|-------|-----------|------------------|-------------|
+| **Data** | GUID | Content-addressed vertex position | Infrastructure-independent |
+| **Relationship** | VRC | Bilateral edge commitment (promise bundle) | Holonic |
+| **Principal** | DID | Sovereign lattice traversal authority | Temporal memory |
+
+**Key principle:** A blade's identity is its content hash (GUID), not its storage location. This enables **holonic persistence** — the blade remembers its own forging regardless of which vault stores it. The three-layer identity system ensures that:
+
+1. **Data layer (GUID):** Same bytes → same blade → same identity. Deterministic, immutable.
+2. **Relationship layer (VRC):** Bilateral witnesses create verifiable relationship credentials. Two people forging from the same constellation produce linked blades.
+3. **Principal layer (DID):** The First Person's sovereign authority to traverse the lattice and authorize forge operations.
+
+See [agentprivacy-docs README](https://github.com/mitchuski/agentprivacy-docs) for the complete identity system specification.
 
 ## Version History
 
@@ -544,7 +591,8 @@ zk-swordsman-blade-forge/
 |---------|------|---------|
 | 1.0 | February 19, 2026 | Initial mapping — UOR algebra × tetrahedral geometry × ZK proofs |
 | 2.0 | February 27, 2026 | C4 RESOLVED via holographic bound. V5 status integration. C6 conjecture added |
-| **3.0** | **March 27, 2026** | **V5 Full Integration:** Three-axis separation mapped to blade dimensions. Holographic boundary operations for UOR. Path integral replaces additive sums for ZK witness paths. Compression-as-defence with BRAID 74× and seven-layer spectrum. Holonic persistence with GUID-addressed blades. Guild efficiency on shared-parent forge clusters. Correspondence table extended (14 rows). Forge method updated (7 steps). Project structure added. Unified from dual-source v3.0 drafts. Renamed: "The Swordsman's Zero Knowledge Forge" |
+| 3.0 | March 27, 2026 | V5 Full Integration: Three-axis separation, holographic operations, path integral, compression-as-defence, holonic persistence, guild efficiency |
+| **3.1** | **March 31, 2026** | **OPERATIONAL status:** Live implementation on spellweb.ai. Added implementation references (spellweb.ai, agentprivacy.ai). Integrated DUAL_TERRITORY_CEREMONY_SPEC v1.0. Added Grimoire Acts XXVII–XXIX references. Added UOR & Identity System Integration section with three-layer architecture. Updated Glossary reference to v3.2. Cross-referenced agentprivacy-docs for complete identity specification |
 
 ---
 
@@ -552,12 +600,14 @@ zk-swordsman-blade-forge/
 
 *"The blade that knows its edge cuts deeper than the storm that knows no shore."*
 
+*"The proof that guards no secret cannot be opened. It can only be walked."* — Act XXIX
+
 **(⚔️⊥⿻⊥🧙)·(📊⊥🔮)·(🧠⊥⚙️)·☯️🔷 😊**
 
 ---
 
 **Living Documentation:** [github.com/mitchuski/agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs)
-**Website:** [agentprivacy.ai](https://agentprivacy.ai) | **Knowledge Graph:** [spellweb.ai](https://spellweb.ai) | **Blog:** [sync.soulbis.com](https://sync.soulbis.com)
+**Swordsman Territory:** [spellweb.ai](https://spellweb.ai) | **Mage Territory:** [agentprivacy.ai](https://agentprivacy.ai) | **Blog:** [sync.soulbis.com](https://sync.soulbis.com)
 **Knowledge Bot:** @soulbae_the_bot (Telegram DM)
 
 CC BY-SA 4.0
