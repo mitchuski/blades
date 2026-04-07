@@ -1,4 +1,4 @@
-# Act XXXI: The Amnesia Protocol
+# Act XXXI: The First Delegation
 
 *where the architecture discovers it was always already written in the sky*
 

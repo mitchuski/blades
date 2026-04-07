@@ -249,7 +249,7 @@ This is **understanding-as-key** as the literal access control mechanism. No cre
 | XXVIII | Ceremony | Where blades cross. Extensions, mana, ceremony channel | 📋 Specified |
 | XXIX | Flight | Post-quantum resilience. Manifold proofs | 📋 Specified |
 | XXX | Mirror | Dihedral group. neg = Swordsman, bnot = Mage, succ = First Person | ✅ Proven |
-| XXXI | Protocol | Moon-Earth-Sun-Human cosmology. Amnesia Protocol | ✅ Grounded |
+| XXXI | Delegation | Moon-Earth-Sun-Human cosmology. The First Delegation | ✅ Grounded |
 
 ---
 

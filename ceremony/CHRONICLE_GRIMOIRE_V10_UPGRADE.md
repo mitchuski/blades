@@ -41,7 +41,7 @@ NEW: ⚔️✦ → ☀️⊥🌑 → 🔑→✦→🗡️ → 🌑(night)/🌍(d
 
 **Description rewritten:** Centred on the Celestial Ceremony (two phones, invitation pattern, Reflect/Connect recursion, progressive trust) rather than the ceremony engine infrastructure. Pretext and DOM-free measurement retained. The spellweb speaks the poem (Swordsman). The phone plays the music (Mage). Private key burn referenced.
 
-### Act XXXI: The Amnesia Protocol
+### Act XXXI: The First Delegation
 
 **Spell updated:**
 ```

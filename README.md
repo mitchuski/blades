@@ -103,7 +103,7 @@ zk-blades-forge/
 │   ├── 28-act-xxviii-the-celestial-ceremony-engine.md
 │   ├── 29-act-xxix-the-dragon-wakes.md
 │   ├── act-xxx-the-dihedral-mirror.md
-│   └── 31-act-xxxi-the-amnesia-protocol.md
+│   └── 31-act-xxxi-the-first-delegation.md
 │
 ├── chronicles/                            # Session records
 │   ├── CHRONICLE_REPO_EVOLUTION_2026-04-07.md
@@ -130,7 +130,7 @@ The specification is encoded in narrative form through grimoire acts:
 | XXVIII | The Celestial Ceremony Engine | Bilateral witness, understanding-as-key | `grimoire/` |
 | XXIX | The Dragon Wakes | Post-quantum resilience | `grimoire/` |
 | XXX | The Dihedral Mirror | Swordsman = neg, Mage = bnot, First Person = succ | `grimoire/` |
-| XXXI | The Amnesia Protocol | Cosmological quaternion, Theia derivation | `grimoire/` |
+| XXXI | The First Delegation | Cosmological quaternion, Theia derivation | `grimoire/` |
 
 These acts are **complementary to the specification** — same architecture, narrative encoding for different audiences.
 

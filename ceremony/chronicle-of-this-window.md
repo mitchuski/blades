@@ -150,7 +150,7 @@ The poems are the spine. ✅
 | 27-act-xxvii-forging-zero-knowledge-blades.md | Updated act | ✅ Ready |
 | 28-act-xxviii-the-celestial-ceremony-engine.md | Updated act | ✅ Ready |
 | 29-act-xxix-the-dragon-wakes.md | Updated act | ✅ Ready |
-| 31-act-xxxi-the-amnesia-protocol.md | Updated act | ✅ Ready |
+| 31-act-xxxi-the-first-delegation.md | Updated act | ✅ Ready |
 
 ---
 

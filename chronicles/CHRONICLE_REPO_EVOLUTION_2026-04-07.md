@@ -45,7 +45,7 @@ Not a library. Not a product. A specification for how bilateral ceremonies produ
 | XXVIII | `28-act-xxviii-the-celestial-ceremony-engine.md` | Bilateral witness, understanding-as-key |
 | XXIX | `29-act-xxix-the-dragon-wakes.md` | Post-quantum resilience |
 | XXX | `act-xxx-the-dihedral-mirror.md` | Dihedral group = dual-agent algebra |
-| XXXI | `31-act-xxxi-the-amnesia-protocol.md` | Cosmological quaternion |
+| XXXI | `31-act-xxxi-the-first-delegation.md` | Cosmological quaternion |
 
 ### Reference Data
 
