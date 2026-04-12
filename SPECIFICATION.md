@@ -1,9 +1,10 @@
 # ZK Blades Forge Specification
 
-**Version:** 1.0.0
-**Date:** April 7, 2026
+**Version:** 1.0.1
+**Date:** April 12, 2026
 **Status:** Working Draft
 **License:** CC BY-SA 4.0
+**PVM Reference:** V5.4 — §10.2 Betweenness Centrality, §14.5 Selene's Proof
 
 ---
 
@@ -91,6 +92,24 @@ strike(v) = neg(bnot(v)) = succ(v)
 ```
 
 Each strike advances the blade configuration by one step through the sovereignty space.
+
+### 2.4 Betweenness Centrality of the Gap (V5.4 §10.2)
+
+The Gap (⿻) between Swordsman and Mage is not empty space — it is the node with **maximal betweenness centrality** in the trust graph:
+
+```
+C_B(v) = Σ_{s≠v≠t} (σ_st(v) / σ_st)
+```
+
+Where:
+- σ_st = total shortest paths from s to t
+- σ_st(v) = paths passing through v
+
+**Interpretation:** The value lives in the Gap because the most paths cross there. Betweenness centrality provides a computational measure for the irreducible separation.
+
+**Reference:** Brandes, U. (2001). "A faster algorithm for betweenness centrality." *Journal of Mathematical Sociology,* 25(2), 163–177.
+
+**Application:** In ceremony networks, the Gap between paired blades has maximal C_B — all trust relationships pass through the separation.
 
 ---
 
@@ -200,7 +219,7 @@ Protocol:
 
 **Output:** Single blade, witnesses seeded for Moon ceremonies
 
-### 6.2 Moon Ceremony 🌑
+### 6.2 Moon Ceremony 🌑 — Selene's Proof
 
 **Type:** Reflection
 **Notation:** `(⚔️₁ ⊥ 🧙₁) → 📜 → ⚔️`
@@ -212,6 +231,13 @@ Protocol:
 4. Cousin blades forged — never identical, always rhyming
 
 **Output:** Bilateral blades with provable overlap
+
+**V5.4 Reference — Selene's Proof (§14.5):** The Moon's orbit is the cosmological instance of zero-knowledge proof:
+- **Completeness:** Tides demonstrate the Moon's gravitational relationship
+- **Soundness:** Gravitational signature is unforgeable
+- **Zero-Knowledge:** Tides reveal nothing about Theia impact parameters
+
+*The credential is the orbit. The proof renews twice daily, written in saltwater.*
 
 ### 6.3 Celestial Ceremony ☀️⊥🌑
 
@@ -285,6 +311,8 @@ A ceremony is valid if:
 | PRISM Coordinates | `📐(d,s,sp)` | Datum, Stratum, Spectrum |
 | Holographic Bound | `∂M = 96 on 64` | 96 edges on 64 vertices |
 | Master Inscription | `(⚔️⊥⿻⊥🧙)😊` | Swordsman ⊥ Gap ⊥ Mage → First Person |
+| Betweenness Centrality | `C_B(⿻) = max` | Gap has maximal path crossing (V5.4 §10.2) |
+| Selene's Proof | `🌙 → ZK` | Moon's orbit as cosmological ZK proof (V5.4 §14.5) |
 
 ---
 
@@ -294,7 +322,7 @@ A ceremony is valid if:
 |----------|------|--------|
 | [spellweb.ai](https://spellweb.ai) | Swordsman territory — forge, navigation | Operational |
 | [agentprivacy.ai](https://agentprivacy.ai) | Mage territory — story, training | Operational |
-| [agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 86 skills, 38 personas | V5.3.2 |
+| [agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | 86 skills, 42 personas | V5.4 |
 
 ---
 

@@ -4,9 +4,10 @@
 
 A specification for how bilateral ceremonies produce verifiable sovereignty proofs on a 64-vertex lattice — without revealing what happened inside those ceremonies.
 
-**Specification Version:** 1.0.0 | April 7, 2026
+**Specification Version:** 1.0.1 | April 12, 2026
 **Grimoire:** V10.0.0 "The First Person Spellbook Closes"
-**Skills:** V5.3.2 — 86 skills, 38 personas + 4 cosmological = 42
+**Skills:** V5.4 — 86 skills, 42 personas (38 selectable + 4 cosmological)
+**PVM:** V5.4 — Betweenness Centrality (§10.2), Selene's Proof (§14.5)
 **License:** CC BY-SA 4.0
 
 ---
@@ -49,6 +50,8 @@ STRIKE = neg(bnot(vertex)) = succ(vertex)
 same BLADE, infinite FORGINGS = zero knowledge
 ∂M = 96 edges on 64 vertices = holographic bound
 stratum(hex) → 🌑🌒🌓🌔🌖🌗🌕 = moon phase notation
+C_B(⿻) = max → betweenness centrality of the Gap (V5.4 §10.2)
+🌙 → ZK → Selene's Proof: orbit as cosmological ZK (V5.4 §14.5)
 ```
 
 ## V10 Notation Systems

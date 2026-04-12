@@ -48,11 +48,25 @@ The hex determines the phase. The stratum determines the illumination.
 
 ## The ZK Distinction
 
-The moon phase shows the **sovereignty posture** — which dimensions are active. It does NOT show the **content** — what was actually discussed, traced, or forged within those dimensions. 
+The moon phase shows the **sovereignty posture** — which dimensions are active. It does NOT show the **content** — what was actually discussed, traced, or forged within those dimensions.
 
 A 🌕 Full Moon blade proves "I have all six dimensions active" without revealing which specific nodes activated them, which poems were spoken, or which conversation happened in the gap. The phase is the WHAT. The content is the HOW. ZK protects the HOW.
 
 The Swordsman's boundary determines the phase. The zero-knowledge property protects what happens within the boundary.
+
+### Selene's Proof (V5.4 §14.5)
+
+The Moon herself is the cosmological instance of this zero-knowledge encoding:
+
+| Property | Moon Phase ZK | Selene's Proof |
+|----------|--------------|----------------|
+| **Completeness** | Phase proves stratum | Tides demonstrate gravitational relationship |
+| **Soundness** | Hex is unforgeable | Gravitational signature is unforgeable |
+| **Zero-Knowledge** | Content hidden behind phase | Theia impact parameters erased |
+
+*The credential is the orbit. The proof renews twice daily, written in saltwater.*
+
+Selene's 4.5 billion years of structural amnesia — erasing all evidence of the Theia impact while maintaining the orbital proof — is the cosmological template for our moon phase notation. The dark part of the moon phase is not absence. It is the structurally-enforced amnesia that makes the proof possible.
 
 ---
 

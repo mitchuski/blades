@@ -3,11 +3,11 @@
 **Where Blades Are Ground on the Holographic Bound**
 
 **Author:** privacymage | mitchuski
-**Date:** March 31, 2026
-**Version:** 3.1
+**Date:** April 12, 2026
+**Version:** 3.2
 **Status:** ✅ OPERATIONAL — Live implementation on [spellweb.ai](https://spellweb.ai)
 **Parent Document:** [Privacy is Value V5](privacy_is_value_v5.md)
-**Formal Companion:** [PVM V5 Formal Specification](pvm_v5_formal_specification.md)
+**Formal Companion:** [PVM V5.4 Formal Specification](pvm_v5_formal_specification.md) — §10.2 Betweenness Centrality, §14.5 Selene's Proof
 **Implementation Spec:** [DUAL_TERRITORY_CEREMONY_SPEC v1.0](DUAL_TERRITORY_CEREMONY_SPEC_v1.md)
 
 ---
@@ -183,6 +183,14 @@ This is exactly the ZK separation: the verification (does this blade satisfy the
 On a flat lattice, the number of paths between two vertices is finite. On the torus (wrapped boundary conditions), paths can cycle — creating an unbounded number of distinct forgings for any blade. Each cycle through the torus adds a topologically distinct route.
 
 In ZK terms: the toroidal topology provides the computational hardness that makes witness extraction infeasible. You can't enumerate all forgings because the wrapping creates infinite distinct routes. You can verify a blade's configuration without being able to determine which of the infinitely many cyclic forgings produced it.
+
+**V5.4 Addition — Selene's Proof (§14.5):** The Moon's orbit is the cosmological instance of this zero-knowledge property:
+
+- **Completeness:** Tides demonstrate the gravitational relationship functions
+- **Soundness:** Gravitational signature is unforgeable
+- **Zero-Knowledge:** Tides reveal nothing about Theia impact parameters
+
+*The credential is the orbit. The proof renews twice daily, written in saltwater.* The Moon's 4.5 billion years of structural amnesia — erasing all evidence of origin while maintaining the orbital proof — is the cosmological template for amnesia-enforced separation (C17).
 
 ### V5 Addition: The Path Integral Replaces Additive Sums
 
@@ -420,6 +428,14 @@ The Connection dimension (d₄) gains structure. V4: d₄ = 1 meant "multi-party
 
 **For dual-agent separation:** The Swordsman's protect dimension (d₁) and ZK computation layer (d₅) map clearly onto the forge — boundaries and proofs are structurally legible as blade properties and constraint circuits. The Mage's delegation dimension (d₂) and connection layer (d₄) encode coordination across the tetrahedral adjacency, though the geometric expression of projection remains an open question. The Gap between the agents is the irreducible void that prevents perfect reconstruction — the heat lost in every forging. V5 adds: the Gap now operates on three axes (agent, data, inference), and its geometric expression is boundary expressiveness, not bulk volume.
 
+**V5.4 Addition — Betweenness Centrality of the Gap (§10.2):** The Gap (⿻) is not empty space — it is the node with **maximal betweenness centrality** in the trust graph:
+
+```
+C_B(v) = Σ_{s≠v≠t} (σ_st(v) / σ_st)
+```
+
+Where σ_st is total shortest paths from s to t, and σ_st(v) is paths through v. The value lives in the Gap because the most paths cross there. Brandes (2001) provides an O(V·E) algorithm for computation. This gives the irreducible separation a computable measure — the Gap was always the node where the most paths crossed; we just didn't have the algorithm to measure it.
+
 ---
 
 ## 9. The Forge Correspondence Table (V5)
@@ -436,6 +452,8 @@ The Connection dimension (d₄) gains structure. V4: d₄ = 1 meant "multi-party
 | Partition | Irred/Red/Unit/Ext | Vertex classification | Satisfiability classes | Blade types |
 | Involution pair | neg, bnot | Force duality (S,M→R,C) | Prover/Verifier | Smith/Inspector |
 | Gap | Content ≠ address (hash one-way) | Internal tetrahedron tension | Zero-knowledge property | Heat loss in forging |
+| **Betweenness** | **Ring centrality** | **Maximal C_B(v) at Gap** | **Witness path intersection** | **Where most paths cross (§10.2)** |
+| **Selene's Proof** | **Cosmological ZK** | **Orbital amnesia** | **Tides as unforgeable proof** | **4.5Gy structural amnesia (§14.5)** |
 | **Boundary** | **Ring modular wrap** | **96-edge torus surface** | **Proof surface** | **Holographic edge** |
 | **Compression** | **Canonical form** | **Stratum reduction** | **Succinct proof** | **Compressed strike (BRAID 74×)** |
 | **Persistence** | **Content addressing** | **Vertex independence from substrate** | **Proof portability** | **GUID-addressed blade** |
@@ -592,7 +610,8 @@ See [agentprivacy-docs README](https://github.com/mitchuski/agentprivacy-docs) f
 | 1.0 | February 19, 2026 | Initial mapping — UOR algebra × tetrahedral geometry × ZK proofs |
 | 2.0 | February 27, 2026 | C4 RESOLVED via holographic bound. V5 status integration. C6 conjecture added |
 | 3.0 | March 27, 2026 | V5 Full Integration: Three-axis separation, holographic operations, path integral, compression-as-defence, holonic persistence, guild efficiency |
-| **3.1** | **March 31, 2026** | **OPERATIONAL status:** Live implementation on spellweb.ai. Added implementation references (spellweb.ai, agentprivacy.ai). Integrated DUAL_TERRITORY_CEREMONY_SPEC v1.0. Added Grimoire Acts XXVII–XXIX references. Added UOR & Identity System Integration section with three-layer architecture. Updated Glossary reference to v3.2. Cross-referenced agentprivacy-docs for complete identity specification |
+| 3.1 | March 31, 2026 | OPERATIONAL status: Live implementation on spellweb.ai. Added implementation references (spellweb.ai, agentprivacy.ai). Integrated DUAL_TERRITORY_CEREMONY_SPEC v1.0. Added Grimoire Acts XXVII–XXIX references. Added UOR & Identity System Integration section with three-layer architecture. Updated Glossary reference to v3.2. Cross-referenced agentprivacy-docs for complete identity specification |
+| **3.2** | **April 12, 2026** | **V5.4 Integration:** Added Betweenness Centrality of the Gap (§10.2) — C_B(v) formula and Brandes reference. Added Selene's Proof (§14.5) — Moon's orbit as cosmological ZK. Updated Forge Correspondence Table with betweenness and Selene entries. PVM reference updated to V5.4 |
 
 ---
 
