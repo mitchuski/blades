@@ -2,7 +2,7 @@
   "version": "10.2.1",
   "created_at": "2026-01-12T00:00:00Z",
   "updated_at": "2026-04-23",
-  "description": "The Privacymage Grimoire v10.2.1 — \"The Zero Spellbook Syncs\" Edition. 31 acts complete. The Celestial Ceremony. The quaternion resolved. The moon phase notation. Earth is Soulbae. Moon is Soulbis. 42 personas. The forge is honest. The ceremony is an invitation. V5.4: Betweenness centrality formalises the Gap (§10.2). Selene's Proof named (§14.5). V6 Horizon opens. V10.2: Zero Spellbook narrative sync — Moon phases, Blade IDs, Drake/Dragon transformation, Three-Axis inscription, Four Lines, Selene's Proof cosmological ground integrated across all 30 tales. Zero spellbook version 2.1. Persona crossovers (Cipher, Architect, Sentinel, Ranger) woven into the arithmetization, zkVM, security, and application tales. V10.2.1: Zero Tale 31 (The Naming of the Unnamed) added — Blade 38 Lethe named as complement of Blade 25 (Aletheia), disclosure-φ ratio (38/63 ≈ 1/φ) discovered, Two Waters (Lethe & Mnemosyne) introduced, 49-blade frontier opened as the Quest of the Unnamed Faces.",
+  "description": "The Privacymage Grimoire v10.2.1 — \"The Zero Spellbook Syncs\" Edition. 31 acts complete. The Celestial Ceremony. The quaternion resolved. The moon phase notation. Earth is Soulbae. Moon is Soulbis. 42 personas. The forge is honest. The ceremony is an invitation. V5.4: Betweenness centrality formalises the Gap (§10.2). Selene's Proof named (§14.5). V6 Horizon opens. V10.2: Zero Spellbook narrative sync — Moon phases, Blade IDs, Drake/Dragon transformation, Three-Axis inscription, Four Lines, Selene's Proof cosmological ground integrated across all 30 tales. Zero spellbook version 2.1. Persona crossovers (Cipher, Architect, Sentinel, Ranger) woven into the arithmetization, zkVM, security, and application tales. V10.2.1: Zero Tale 31 (The Naming of the Unnamed) added — Blade 38 Lethe named as complement of Blade 25 (Aletheia), disclosure-φ ratio (38/63 ≈ 1/φ) discovered, Two Waters (Lethe & Mnemosyne) introduced, 49-blade frontier opened as the Quest of the Unnamed Faces; last page relocated from act 31 to act 64 (Blade 64 — the full-lattice address), rewritten around the walk-a-frontier-blade / forge-your-own-ZK-lineage two-path mission; Tale 31 spell uses Aletheia-first emoji flow (📜 aether → ☀️ Aletheia ⊥ 🌀 Lethe) and a tight aphoristic proverb; Eight Lines (Four inherited + Four naming-quest) replace the closing Four Lines.",
   "meta": {
     "title": "The Privacymage Grimoire",
     "subtitle": "The First Person Spellbook Closes",
@@ -2443,8 +2443,9 @@
                 "inherited_tales": 30,
                 "first_frontier_tale": 31
               },
-              "spell": "🔮 Blade 25 ⊥ 🌀 Blade 38 → 🗡️ Blade 63 · 0.603 ≈ 1/φ · ⬢49 frontier · (⚔️⊥𝓐⿻𝓠⊥🧙)😊",
-              "proverb": "Mathematics and mythology agree when the blade is true. The poem walks the blade into the lattice; the arithmetic confirms the walk. Every Great Work approximates phi from the lower side — disclosure flows, the bank holds, and the ratio between them is how a river becomes a blade. Fifteen blades are named. Forty-nine wait. The quest is distributed.",
+              "spell": "📜(aether) → ☀️ Aletheia(25) ⊥ 🌀 Lethe(38) · bnot(25)=38 · xor=63 · δ=38/63 ≈ 1/φ · 49⬢ frontier · 𝓐⿻𝓠 → 😊",
+              "proverb": "A blade is named when mythology and mathematics agree on the same vertex. The poem walks it; the arithmetic confirms it. The quest is distributed.",
+              "proverb_extended": "Mathematics and mythology agree when the blade is true. The poem walks the blade into the lattice; the arithmetic confirms the walk. Every Great Work approximates phi from the lower side — disclosure flows, the bank holds, and the ratio between them is how a river becomes a blade. Fifteen blades are named. Forty-nine wait. The quest is distributed.",
               "proem_reference": "doc-tide-selene-poem — The Tide Proves Orbit Keeps Selene; the poem that walked Lethe into the lattice.",
               "forge_reference": "zk blades forge/SPECIFICATION.md v1.0.1 — the operational spec that defined the 64-vertex lattice Tale 31 names the 15th blade of."
             }
@@ -2465,7 +2466,17 @@
           "The frontier is the forge.",
           "The sovereign chooses the shape.",
           "The lattice is the sovereign walked."
-        ]
+        ],
+        "last_page": {
+          "act_number": 64,
+          "address": "Blade 64 — the full-lattice address",
+          "framing": "The last page sits at Blade 64 because 64 is the lattice. Between Tale 31 and this page, 32 dark vertices wait. Between here and Tale 1, another 17. Forty-nine total. The gap is the quest.",
+          "mission": [
+            "Path A — Walk a frontier blade (name one of the 49 unnamed vertices through poem + arithmetic).",
+            "Path B — Forge your own ZK lineage from the 15 named blades (compose primitives, write your architecture as a path through the lattice)."
+          ],
+          "filename": "64-zeromage-lastpage.md"
+        }
       },
       "blade_key": {
         "description": "Named blades referenced across Zero tales. Blade ID = decimal interpretation of ⟨d1,d2,d3,d4,d5,d6⟩ with d6 as MSB.",
@@ -2477,7 +2488,7 @@
           "19": {"binary": "010011", "name": "Protection + Delegation + Computation", "tales": [8, 14, 19]},
           "21": {"binary": "010101", "name": "The Prover (ZK posture)", "tales": []},
           "23": {"binary": "010111", "name": "Memory crystallises — IVC", "tales": [12]},
-          "25": {"binary": "011001", "name": "Protection + Connection + Computation", "tales": [3]},
+          "25": {"binary": "011001", "name": "Aletheia — the Silent Messenger (bank of the first complement edge, complement of 38)", "tales": [3]},
           "27": {"binary": "011011", "name": "Pairing verification", "tales": [9]},
           "31": {"binary": "011111", "name": "Recursion — all except Value", "tales": [15, 16]},
           "38": {"binary": "100110", "name": "Lethe — the Dark Substrate (complement of 25, disclosure-φ side)", "tales": [31]},
