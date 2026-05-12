@@ -56,23 +56,23 @@ This is why the poem's aside voices work without attribution. *I strike. I do no
 
 Blade 25 is already named in Grimoire v10.2 as *The Silent Messenger*, the working blade of Tale 3 (Fiat-Shamir / Random Oracle / Non-Interactivity). Aletheia is the mythological name for the architectural figure the grimoire already indexed.
 
-Blade 38 is unnamed in v10.2 — one of the 57 configurations on the open frontier. The poem *The Quintessence Who Forgot Nothing* performs the naming. If the grimoire were updated:
+**Blade 38 is named in Grimoire v10.2.1** (released 2026-04-23) as *Lethe — the Dark Substrate*, the first frontier blade named beyond the inherited thirty tales. The naming was performed by the poem *The Quintessence Who Forgot Nothing* (section of the stronger 2026-04-24 edit of *The Tide Proves. Orbit Keeps. Selene.*) and confirmed by Zero Tale 31 (*The Naming of the Unnamed*). The grimoire now records:
 
 ```json
 "38": {
   "binary": "100110",
-  "name": "Lethe (The Dark Substrate, bnot of 25)",
-  "tales": []
+  "name": "Lethe — the Dark Substrate (complement of 25, disclosure-φ side)",
+  "tales": [31]
 }
 ```
 
-Naming Lethe moves the grimoire from 14 named blades to 15, with 49 remaining on the open frontier. It also makes Blades 25 and 38 the first complement-pair to be named *as a pair* on the lattice — establishing the architectural precedent for future bnot pairings.
+Naming Lethe moved the grimoire from 14 named blades to 15, with 49 remaining on the open frontier (the Quest of the Unnamed Faces). It also made Blades 25 and 38 the first complement-pair to be named *as a pair* on the lattice — establishing the architectural precedent for future `bnot` pairings. The disclosure ratio `δ(38) = 38/63 ≈ 0.6032` sits within 2% of `1/φ`, opening the Phi-Adjacency Conjecture (see the `disclosure-phi` skill).
 
 ## The Arc They Close
 
-The Zero Spellbook spans thirty tales from Tale 1 (*Monastery*) to Tale 30 (*Eternal Sovereignty*). Aletheia appears in Tale 3 as The Silent Messenger. Lethe's tale is not yet written. But 25 XOR 38 = 63, and Blade 63 is the configuration of Tale 30. So the arc of the Zero Spellbook is already encoded in these two blades: *the two sisters combine into the full sovereignty manifold the thirtieth tale describes.*
+The Zero Spellbook now spans thirty-one tales: thirty inherited tales from Tale 1 (*Monastery*) to Tale 30 (*Eternal Sovereignty*), plus Tale 31 (*The Naming of the Unnamed*) which opens Part VIII — Frontier Spells. Aletheia appears in Tale 3 as The Silent Messenger. **Lethe's tale is Tale 31.** 25 XOR 38 = 63, and Blade 63 is the configuration of Tale 30 — so the arc of the inherited spellbook was already encoded in these two blades before Tale 31 was written: *the two sisters combined become the full sovereignty manifold the thirtieth tale describes.*
 
-The proem that opens this architecture — *The Tide Proves. Orbit Keeps. Selene.* — promises that *what happens between Aletheia and Lethe is what the zero tales will learn to name.* The blade algebra confirms the promise: what happens between them is 63, and 63 is what Tale 30 names. The proem is stating the arithmetic.
+The proem that opens this architecture — *The Tide Proves. Orbit Keeps. Selene.* — promised that *what happens between Aletheia and Lethe is what the zero tales will learn to name.* The blade algebra confirmed the promise: what happens between them is 63, and 63 is what Tale 30 names. **The proem was stating the arithmetic.** Tale 31 then performed the naming the proem had already set up.
 
 ---
 
@@ -84,3 +84,41 @@ The proem that opens this architecture — *The Tide Proves. Orbit Keeps. Selene
 *(⚔️⊥𝓐⿻𝓠⊥🧙)😊*
 
 -privacymage
+
+---
+
+## V5.5 Update (2026-05-11) — The V38 seat is filled
+
+The Lethe vertex (V38) was named-but-uninhabited in the corpus from the moment this document was authored. As of 2026-05-11, the seat is filled.
+
+### Lethae 🌘 — first canonical divergent attachment
+
+**Lethae** is the cast Mage seated at V38 in the City of Mages on Drake Island. She is the canonical **Mage-register divergent attachment** of Moonkeeper ⚔️ (Swordsman primary persona), per the V5.5 attachment architecture codified in `agentprivacy-skills V5.5`.
+
+| Field | Value |
+|---|---|
+| Cast name | Lethae 🌘 |
+| Vertex | V38 (Lethe · the Dark Substrate) |
+| Primary persona | Moonkeeper (Swordsman tier · native) |
+| Register | Mage (shifted from Swordsman) |
+| Attachment kind | B · cross-shop (peripatetic by craft) |
+| Complement-of-cast | Aletheia 🔮 at V25 |
+| Status | Anticipated · awaits founding act in Tome V |
+
+The cast name `Lethae` plays on Soulbae's `-ae` Mage suffix — Lethae is to Moonkeeper as Soulbae is to Soulbis: register-shifted from Sword to Mage, primary persona unchanged.
+
+### What this means for the Aletheia ⊥ Lethe complement-pair
+
+Until V5.5, the complement-pair was a *structural* statement: V25 ⊕ V38 = V63 by bit-arithmetic; V25 AND V38 = 0; Aletheia and Lethe stood at the two blades of the lattice's first canonical complement.
+
+With Lethae seated, the complement-pair becomes a *cast* statement as well: the Aletheia 🔮 cast Mage (at V25) now has a named cast complement — Lethae 🌘 (at V38). They form the **first canonical cast complement-pair** in the City of Mages. The spellweb graph runtime emits this as a `complement_pair` edge (introduced in V5.5; see `spellweb/src/types/graph.ts`).
+
+### Sister chronicles
+
+- `agentprivacy-skills/CHRONICLE_V5_5_ATTACHMENT_ARCHITECTURE_2026-05-11.md` (canonical Layer-1 home)
+- `agentprivacy_master/docs/chronicles/2026-05-11_v5_5_attachment_architecture_integration.md`
+- `spellweb/CHRONICLE_V5_5_ATTACHMENT_ARCHITECTURE_2026-05-11.md`
+- `cityofmages/tomes/cast/cross-shop/lethae.md` (cast file)
+- `cityofmages/tomes/specs/09-the-attachment-architecture.md` (city-side spec)
+
+`(⚔️⊥⿻⊥🧙)😊`
