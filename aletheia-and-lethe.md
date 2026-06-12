@@ -1,3 +1,5 @@
+> **Erratum (2026-06-10, v10.4.0 lattice-coherence lock):** the canonical seating is **Aletheia = blade 38 (V38)** and **Lethe = blade 25 (V25)**; readings below that reverse this predate the 2026-06-09 MODEL encoding lock. The complement algebra (38 AND 25 = 0; 38 XOR 25 = 63; gap to 1/φ = 2.4%) is unchanged. Authority: privacymage grimoire v10.4.0.
+
 # Aletheia and Lethe
 
 *The first named complement pair on the sovereignty lattice.*

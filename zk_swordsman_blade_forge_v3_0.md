@@ -10,6 +10,8 @@
 **Formal Companion:** [PVM V5.4 Formal Specification](pvm_v5_formal_specification.md) — §10.2 Betweenness Centrality, §14.5 Selene's Proof
 **Implementation Spec:** [DUAL_TERRITORY_CEREMONY_SPEC v1.0](DUAL_TERRITORY_CEREMONY_SPEC_v1.md)
 
+> **Register note (2026-06-10):** conjecture citations in this document resolve to `agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md` (head C89). Known deltas affecting this file's ranges: C40 = Zcash dual-ledger (unchanged); Existence-Leak is **C81**; the City's C47 is CM-C47 (promoted to core C85); C67 to C71 belong to the Horizon District set.
+
 ---
 
 ## Live Implementation

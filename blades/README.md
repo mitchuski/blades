@@ -12,6 +12,8 @@ This directory holds per-blade specifications when authored. The blade structure
 
 ## V5.5 note (2026-05-11)
 
+> **Reseat erratum (v10.4.0 lock, 2026-06-09):** the vertex example below predates the lock and is inverted. Canonical seating: **Aletheia = V38** · **Lethe/Lethae = V25**. δ(38) belongs to Aletheia. Kept as written per era practice; the lock governs.
+
 Each blade in this directory is wielded by a cast Mage (Layer 2 attachment) at a specific vertex (Layer 3). The cast Mage instances a primary persona (Layer 1) — typically Forgemaster ⚔️ or Forgecaller ⚔️⚒️ for forge-side blades. Per-blade spec files should record:
 
 - Vertex (e.g., V19 for Plonkish · V25 for Aletheia · V38 for Lethe)

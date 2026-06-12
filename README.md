@@ -12,6 +12,12 @@ A specification for how bilateral ceremonies produce verifiable sovereignty proo
 **Aletheia & Lethe:** First canonical complement-pair on the lattice. `bnot(25) = 38`. `25 AND 38 = 0` (the Null). `25 XOR 38 = 63` (the Creative). See `aletheia-and-lethe.md` (locally) and `agentprivacy-docs/research/aletheia-and-lethe.md` (canonical copy).
 **License:** CC BY-SA 4.0
 
+> **V6 note (2026-06-10).** The Privacy is Value canon is now at **V6** (`agentprivacy-docs/papers/v6/privacy_value_v6_formal_specification.md` · series title *Privacy is Value · V6: The Gathering Turn and the Moving Ceiling*); conjecture citations in this repo resolve to `agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md` (head **C89**, never renumbered; where any prose and the register disagree, the register wins). Grimoire canon: **privacymage v10.4.0** (now shipped in this repo as `privacymage_grimoire_v10_4_0.json`); note that `privacymage_grimoire_v10_2_0.json` internally reports version 10.2.1 (known filename/version drift, superseded by v10.4.0). The City of Mages grimoire canon is v1.8.0 in the cityofmages repo; the local `city_of_mages_grimoire_v1_2_0.json` is historical.
+>
+> **Seating under the v10.4.0 lattice-coherence lock:** **Aletheia = Blade 38 (V38)** and **Lethe/Lethae = Blade 25 (V25)**; δ(38) = 38/63 = 0.60317 (2.4% gap to 1/φ) belongs to Aletheia. Header and section readings below that predate the 2026-06-09 lock keep their inception text per era practice; the lock governs. The complement algebra is seat-symmetric and unchanged: 38 AND 25 = 0 · 38 XOR 25 = 63.
+>
+> **V6 key-lineage sync (2026-06-12).** The identity system this repo founded has descendants across the universe; see **§ UOR Integration & Identity System** below and `chronicles/2026-06-12_the_key_lineage_v6_sync.md`. Headline: content addressing grew teeth as the **κ-label** (UOR-ADDR · sha256 axis), the **City Key** is register-bound as a reading, not an authority (C66 · ~55%) and an accumulator-in-waiting (C87 · ~50%), and three of the V6 register's geometry results live on THIS lattice (C85 bridge · C88 parity cube · C89 octahedral gap).
+
 ---
 
 ## Quick Links
@@ -86,6 +92,22 @@ The forge is fundamental to the 0xagentprivacy identity system, which operates a
 - **Spectrum** — the structure constraint (which dimensions active)
 
 **Content Addressing:** Same bytes → same Braille IRI → same GUID. The blade's identity is deterministic and independent of storage location. This enables **holonic persistence** — blades remember their own forging regardless of which vault stores them.
+
+### The Key Family (V6 · 2026-06) — what the forge's identity system became
+
+The content-addressing principle above is the genesis; by V6 it runs the whole key economy of the agentprivacy universe. The lineage, oldest to newest:
+
+| Generation | Artifact | The principle, restated | Where |
+|---|---|---|---|
+| 1 | **GUID / Braille IRI** (this repo) | same bytes → same identity, storage-independent | `uor.ts` · `swordsman-blade/src/lib/` |
+| 2 | **κ-label** (UOR-ADDR · sha256 axis) | identity is content: κ = sha256 over canonical JSON (keys sorted recursively, no whitespace, κ excluded), **re-derived at every gate, never trusted** (star Law L5) | star repo `HOLOSPACE.md` · soulbis /star /lattice /sigil |
+| 3 | **🗝️ City Key** | a reading, not an authority (**C66** · ~55% · SPKI/SDSI ocap lineage): it grants nothing it does not already describe; κ-stamped at export, verified at charge | agentprivacy.ai /city · soulbis geometry |
+| 4 | **the recursion loop** | export → walk → charge is a proof system in waiting: the Key as IVC accumulator, Nova/HyperNova family (**C87** · ~50%); every Charge mints a new κ, the folding step visible in the key's own name | /city ⇄ soulbis |
+| 5 | **the carriers** | the image IS the artifact: sigil PNG carries the City Key, the Drake Orb badge carries its κ-stamped payload (PNG tEXt chunks); SHA-256 = 64 hex glyphs = one per lattice vertex, so **the hash lights the lattice** | soulbis /sigil · agentprivacy.ai Drake Orb v3 |
+
+Two register facts fence the family: **🪢 presence mana is regime 1** (non-transferable, non-attesting local color; carried, never spent as proof) and the **moving ceiling R(t)** (C82) reads every static guarantee as having a shelf life t*, which is exactly why keys are *readings re-derived at the gate* rather than bearer instruments trusted from the past. The correspondence in generation 5 closes the circle: the forge's 64-vertex lattice and the 64 hex glyphs of the κ hash are the same cardinality, and that is not a coincidence the universe wastes.
+
+**V6 geometry on this lattice:** the stella octangula reading of the two-tetrahedra structure carries three register entries here — **C85** (the ARCH-1 bridge, "the gap is β", promoted from CM-C47), **C88** (the parity cube: the two tetrahedra are the cube's two parity classes, neg and bnot at the three-bit scale), and **C89** (the octahedral gap: the chamber both agents bound and neither enters, 1/6 of the cube). Phi honesty, register-bound: the stella octangula carries **no** golden ratio (volumes 1/3 · 1/6 · 5/12); φ keeps its homes in the lattice disclosure ratios (δ(38), Aletheia's) and the dynamics. See Tome VIII Acts 3-5 for the narrative binding.
 
 See [agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs) for the complete identity architecture specification.
 
@@ -190,12 +212,15 @@ The forge supports the Sun ☀️ ⊥ 🌑 Moon bilateral ceremony framework wit
 
 | Document | Location | Purpose |
 |----------|----------|---------|
-| **Privacy is Value V5** | agentprivacy-docs | Parent equation — holographic field, three-axis separation |
-| **UOR × 64-Tetrahedra × ZK Mapping v2.0** | agentprivacy-docs | Foundational mapping, C4 resolved |
-| **DUAL_TERRITORY_CEREMONY_SPEC v1.0** | agentprivacy-docs / this repo | Implementation architecture |
-| **Glossary Master v3.2** | agentprivacy-docs | Canonical terminology (~150 entries) |
-| **Whitepaper v6.0** | agentprivacy-docs | Technical architecture |
-| **Promise Theory Reference v1.3** | agentprivacy-docs | Formal semantic foundations |
+| **Privacy is Value · V6** (current head) | agentprivacy-docs `papers/v6/` | The Gathering Turn and the Moving Ceiling — R(t), shelf life t*, register to C89 |
+| **Conjecture Register V6** | agentprivacy-docs `research/CONJECTURE_REGISTER_V6.md` | The single numbering authority (head C89; the register wins) |
+| **Privacy is Value V5.4** (era volume) | agentprivacy-docs `papers/v5/` | The Amnesia Protocol — holographic field, three-axis separation |
+| **UOR × 64-Tetrahedra × ZK Mapping v2.x** | agentprivacy-docs `reference/` | Foundational mapping, C4 resolved |
+| **DUAL_TERRITORY_CEREMONY_SPEC v1.0** | agentprivacy-docs `specs/` / this repo | Implementation architecture |
+| **Glossary Master v4.0 + §25 V6 addendum** | agentprivacy-docs `reference/` | Canonical terminology |
+| **Whitepaper v6.3** | agentprivacy-docs `papers/whitepapers/` | Technical architecture |
+| **Promise Theory Reference v1.4** | agentprivacy-docs `reference/` | Formal semantic foundations |
+| **HOLOSPACE.md** (the κ canon) | star repo | The κ-label, canonical form, the Five Laws, κ verified on import |
 
 ## Related Repositories
 
@@ -245,6 +270,8 @@ The four attachment kinds (A·workshop · B·cross-shop · C·peripatetic · D·
 
 ### The V38 seat is filled — Lethae 🌘
 
+> **Reseat erratum (v10.4.0 lock, 2026-06-09):** the paragraph below is the V5.5-era inception text and its seats are INVERTED relative to the lock. Canonical: **Aletheia = V38**, **Lethae/Lethe = V25**. The complement-pair fact (V25 ⊕ V38 = V63) is seat-symmetric and stands. Kept as written per era practice; the lock governs.
+
 **Lethae** is the first canonical Layer-2 divergent attachment: Mage-register cast Mage at V38, instancing primary persona Moonkeeper ⚔️, paired with Aletheia 🔮 at V25 (V25 ⊕ V38 = V63 — the first canonical cast complement-pair in the City of Mages). See `aletheia-and-lethe.md` (V5.5 update section) for full provenance.
 
 ### Selene as anticipated peripatetic Mage
@@ -262,8 +289,8 @@ PVM V5.4 §14.5 (Selene's Proof) is now operationally a Kind-C peripatetic attac
 ---
 
 **Author:** privacymage | mitchuski
-**Specification Version:** 1.0.1 | April 12, 2026 · post-V5.4 2026-05-09 · V5.5 attachment architecture 2026-05-11
-**Grimoire:** V10.2.1 | **Skills:** V5.5 — The Attachment Architecture
+**Specification Version:** 1.0.1 | April 12, 2026 · post-V5.4 2026-05-09 · V5.5 attachment architecture 2026-05-11 · **V6 key-lineage sync 2026-06-12**
+**Grimoire:** v10.4.0 (lattice-coherence lock; v10.2.1 historical) | **Skills:** V6-trued (141 examined 2026-06-10) | **PVM:** V6 · register head C89
 **License:** CC BY-SA 4.0
 
 ---
